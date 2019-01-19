@@ -11,5 +11,5 @@ CONTAINER=`docker ps -a -q --filter="name=$NAME"`
 docker run -it \
     --name $NAME \
     --init \
-    coderbunker/$NAME:latest \
+    tomasjank/$NAME:latest \
     $*
